@@ -1,0 +1,47 @@
+body {
+  width: 80rem;
+  height: 80rem;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#2E4765), to(#172433)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #2E4765 0%, #172433 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.layout {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  background: #FFFFFF;
+}
+
+.navbar {
+  margin-top: 5rem;
+  margin-left: 1rem;
+  background: #FFFFFF;
+  opacity: 1;
+  border-bottom: 2px solid gray;
+}
+
+.navbar--brand {
+  color: orangered;
+  font-size: 20px;
+}
+
+.profile--image {
+  border-radius: 50px;
+  margin-right: 1rem;
+}
+
+.container--item {
+  border-left: 2px solid gray;
+  background-color: orangered;
+  margin: 0.2rem 0 0 1rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.text {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  background: #FFFFFF;
+  opacity: 1;
+}
+/*# sourceMappingURL=home.css.map */

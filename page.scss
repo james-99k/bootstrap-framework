@@ -1,0 +1,206 @@
+$blue: #2E4765;
+$darkblue: #172433;
+$white: #FFFFFF;
+$green: #93EF00;
+$orange: #EF4C00;
+$maroon: #B30733;
+
+html {
+    height: 2036px;
+    width: 100%;
+}
+
+body {
+    background-color: $blue !important;
+}
+
+.container {
+    background-color: $white;
+    border: 1px solid $white;
+    border-radius: 10px;
+    margin-top: 4rem;
+
+    &__nav {
+        margin: 01rem 5rem 0 5rem !important;
+        width: 80% !important;
+
+        &--row {
+            border-bottom: 1px solid gray;
+        }
+
+        &--logo {
+            color: orangered;
+            font-size: 22px;
+        }
+    }
+
+    &__link--active {
+        border-bottom: 2px solid orangered;
+    }
+
+    &__profile {
+        margin-right: 0px !important;
+        display: inline-flex !important;
+    
+        &--image {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            margin-top: 4px;
+        }
+
+        &--link {
+            border-left: 2px solid gray !important;
+        }
+
+        &--button {
+            background-color: orangered;
+            border-radius: 30px;
+            font-size: 12px !important;
+        }
+    }
+
+    &__poster {
+        margin: 01rem 5rem 0 5rem !important;
+        height: 300px;
+        width: 80% !important;
+        background-image: url("10882.png");
+        background-color: orangered;
+        background-size: contain;
+
+        &--motto{
+            height: 150px;
+            color: $white;
+            font-size: 30px;
+            margin: 2rem 0 0 1rem !important;
+        }
+
+        &--ios {
+            color: $white;
+            height: 40px;
+            margin: 2rem 0 0 2.5rem !important;
+            background-color: $maroon;
+            border-radius: 7px;
+
+            &-icon {
+                margin-top: 5px;
+            }
+
+            &-head {
+                font-size: 10px !important;
+                margin-bottom: 0;
+            }
+
+            &-body {
+                font-size: 12px;
+                margin-top: 0 !important;
+            }
+        }
+
+        &--android {
+            color: $white;
+            height: 40px;
+            margin: 2rem 0 0 0.5rem !important;
+            background-color: $maroon;
+            border-radius: 7px;
+
+            &-icon {
+                margin-top: 5px;
+            }
+
+            &-head {
+                font-size: 10px !important;
+                margin-bottom: 0;
+            }
+
+            &-body {
+                font-size: 12px;
+                margin-top: 0 !important;
+            }
+        }
+    }
+
+    &__menu {
+        margin: 01rem 5rem 0 5rem !important;
+        width: 80% !important;
+
+        &--text {
+            color: $maroon;
+            font-weight: bold;
+        }
+
+        &--list {
+            margin-left: 35px;
+            background-color: $orange !important;
+            width: 35px !important;
+            border-radius: 50px !important;
+        }
+            
+    }
+
+    &__type {
+        margin: 01rem 5rem 0 5rem !important;
+        width: 80% !important;
+
+        &--all{
+            background-color: $orange;
+            border-radius: 10px;  
+            width: 60%;
+            color: $white;
+        }
+
+        &--button {
+            border-radius: 10px;
+            border: 0 5px 0 5px solid $orange;  
+            background-color: rgb(197, 190, 190);
+            width: 90%; 
+        }
+    }
+
+    &__popular {
+        margin: 01rem 5rem 0 5rem !important;
+        width: 80% !important;
+        font-size: 24px;
+        color: $maroon;
+    }
+
+    &__card {
+        margin: 01rem 5rem 0 5rem !important;
+        width: 80% !important;
+
+        &--wrapper {
+            border-radius: 20px !important;
+        }
+
+        &--body {
+
+            & h5 {
+                color: $orange;
+            }
+
+            & a {
+                text-decoration: none;
+            }
+        }
+        
+        &--image {
+            width: 100% !important;
+            height: 50% !important;
+        }
+    }
+}
+
+.blockquote {
+    width: 100% !important;
+    font-size: 25px !important;
+
+    &__source {
+        color: orangered;
+        justify-content: flex-end;
+        font-weight: bold;
+    }
+
+    &--button {
+        color: $blue;
+    }
+}

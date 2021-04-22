@@ -207,8 +207,10 @@ body {
         }
 
         &--body {
+            padding: 0;
 
             & h5 {
+                font-size: 17px;
                 color: $orange;
             }
 
@@ -220,6 +222,14 @@ body {
         &--image {
             width: 100% !important;
             height: 50% !important;
+        }
+
+        &--link {
+            color: $blue;
+
+            &:hover {
+                color: $orange;
+            }
         }
     }
 }
@@ -237,4 +247,55 @@ body {
     &--button {
         color: $blue;
     }
+}
+
+.boreder {
+    margin: 0 5rem 0 5rem;
+    border: 2px solid red;
+
+    &3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        border: 2px solid blue;
+        justify-content: space-around;
+    }
+}
+
+.gridbox {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+    .card {
+        border-radius: 50px;
+
+        &__header {
+            height: 180px;
+            background-image: url("Image 33.png");
+            background-size: cover;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+        }
+    }
+
+}
+
+.container__title {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid blue;
+
+    .heart {
+        border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.details {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid blue;
 }

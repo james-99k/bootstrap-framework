@@ -7,6 +7,10 @@ body {
   background-color: #2E4765 !important;
 }
 
+body * {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .container {
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -24,19 +28,34 @@ body {
 }
 
 .container__nav--logo {
-  color: orangered;
+  color: #EF4C00;
   font-size: 22px;
 }
 
+.container__link {
+  color: #2E4765;
+}
+
+.container__link:hover {
+  color: #EF4C00;
+}
+
 .container__link--active {
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid #EF4C00;
+}
+
+.container__link--active:hover {
+  color: #EF4C00;
 }
 
 .container__profile {
   margin-right: 0px !important;
-  display: -webkit-inline-box !important;
-  display: -ms-inline-flexbox !important;
-  display: inline-flex !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container__profile--image {
@@ -47,13 +66,19 @@ body {
 }
 
 .container__profile--link {
-  border-left: 2px solid gray !important;
+  padding-left: 3px !important;
 }
 
 .container__profile--button {
-  background-color: orangered;
+  color: #FFFFFF;
+  background-color: #EF4C00;
   border-radius: 30px;
   font-size: 12px !important;
+}
+
+.container__profile--button:hover {
+  color: #EF4C00;
+  background-color: #FFFFFF;
 }
 
 .container__poster {
@@ -61,8 +86,8 @@ body {
   height: 300px;
   width: 80% !important;
   background-image: url("10882.png");
-  background-color: orangered;
-  background-size: contain;
+  background-color: #EF4C00;
+  background-size: auto;
 }
 
 .container__poster--motto {
@@ -72,46 +97,24 @@ body {
   margin: 2rem 0 0 1rem !important;
 }
 
-.container__poster--ios {
+.container__poster--mobile {
   color: #FFFFFF;
   height: 40px;
   margin: 2rem 0 0 2.5rem !important;
   background-color: #B30733;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
-.container__poster--ios-icon {
+.container__poster--mobile-icon {
   margin-top: 5px;
 }
 
-.container__poster--ios-head {
+.container__poster--mobile-head {
   font-size: 10px !important;
   margin-bottom: 0;
 }
 
-.container__poster--ios-body {
-  font-size: 12px;
-  margin-top: 0 !important;
-}
-
-.container__poster--android {
-  color: #FFFFFF;
-  height: 40px;
-  margin: 2rem 0 0 0.5rem !important;
-  background-color: #B30733;
-  border-radius: 7px;
-}
-
-.container__poster--android-icon {
-  margin-top: 5px;
-}
-
-.container__poster--android-head {
-  font-size: 10px !important;
-  margin-bottom: 0;
-}
-
-.container__poster--android-body {
+.container__poster--mobile-body {
   font-size: 12px;
   margin-top: 0 !important;
 }
@@ -122,15 +125,41 @@ body {
 }
 
 .container__menu--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #B30733;
   font-weight: bold;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container__menu--list {
-  margin-left: 35px;
-  background-color: #EF4C00 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  background-color: #EF4C00;
   width: 35px !important;
+  height: 35px;
   border-radius: 50px !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__menu--list:hover {
+  background-color: #FFFFFF;
+}
+
+.container__menu--list-bar {
+  color: #FFFFFF;
+}
+
+.container__menu--list-bar:hover {
+  color: #EF4C00;
 }
 
 .container__type {
@@ -139,17 +168,44 @@ body {
 }
 
 .container__type--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #EF4C00;
-  border-radius: 10px;
+  border-radius: 50px;
   width: 60%;
   color: #FFFFFF;
+  padding: 5px 5px 5px 5px !important;
+}
+
+.container__type--all:hover {
+  background-color: #FFFFFF;
+  color: #EF4C00;
 }
 
 .container__type--button {
-  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
   border: 0 5px 0 5px solid #EF4C00;
   background-color: #c5bebe;
   width: 90%;
+  padding: 5px 5px 5Px 5px !important;
+}
+
+.container__type--button:hover {
+  background-color: #2E4765;
+  color: #c5bebe;
 }
 
 .container__popular {

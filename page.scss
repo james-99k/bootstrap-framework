@@ -143,6 +143,7 @@ body {
 
             &:hover {
                 background-color: $white;
+                
             }
 
             &-bar {
@@ -185,7 +186,7 @@ body {
             padding: 5px 5px 5Px 5px !important;
 
             &:hover {
-                background-color: $blue;
+                background-color: $orange;
                 color: rgb(197, 190, 190);
             }
         }
@@ -226,6 +227,10 @@ body {
 
         &--link {
             color: $blue;
+            text-decoration: none;
+            background: rgb(197, 190, 190);
+            border-radius: 20px;
+            padding: 0 10px 0 10px;
 
             &:hover {
                 color: $orange;
@@ -264,10 +269,10 @@ body {
     width: 300px;
     border-radius: 50px;
     margin-top: 3rem;
+    display: grid;
 
     .card {
         border-radius: 20px;
-        margin-left: 5px;
         height: 270px;
 
         &__header{
@@ -342,6 +347,18 @@ body {
                 align-items: flex-end;
             }
         }
+
+        &__title {
+            margin: 5px 10px 5px 10px;
+        }
+
+        &__reviews {
+            margin: 0 10px 0 10px;
+        }
+
+        &__details {
+            margin: 5px 10px 5px 10px;
+        }
     }
 }
 
@@ -359,4 +376,11 @@ body {
 .details {
     display: grid;
     grid-template-columns: auto auto;
+}
+
+@media (max-width: 812px) {
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+    }
 }

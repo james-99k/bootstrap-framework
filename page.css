@@ -204,7 +204,7 @@ body * {
 }
 
 .container__type--button:hover {
-  background-color: #2E4765;
+  background-color: #EF4C00;
   color: #c5bebe;
 }
 
@@ -244,6 +244,10 @@ body * {
 
 .container__card--link {
   color: #2E4765;
+  text-decoration: none;
+  background: #c5bebe;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
 }
 
 .container__card--link:hover {
@@ -285,11 +289,12 @@ body * {
   width: 300px;
   border-radius: 50px;
   margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
 }
 
 .gridbox .card {
   border-radius: 20px;
-  margin-left: 5px;
   height: 270px;
 }
 
@@ -393,6 +398,18 @@ body * {
           align-items: flex-end;
 }
 
+.gridbox .card__title {
+  margin: 5px 10px 5px 10px;
+}
+
+.gridbox .card__reviews {
+  margin: 0 10px 0 10px;
+}
+
+.gridbox .card__details {
+  margin: 5px 10px 5px 10px;
+}
+
 .container__title {
   display: -ms-grid;
   display: grid;
@@ -417,5 +434,17 @@ body * {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+@media (max-width: 812px) {
+  .gridbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=page.css.map */

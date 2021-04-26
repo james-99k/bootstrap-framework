@@ -1,5 +1,5 @@
 html {
-  height: 2036px;
+  height: 1500px;
   width: 100%;
 }
 
@@ -269,7 +269,6 @@ body * {
 
 .boreder {
   margin: 0 5rem 0 5rem;
-  border: 2px solid red;
 }
 
 .boreder3 {
@@ -277,7 +276,6 @@ body * {
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
-  border: 2px solid blue;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -285,20 +283,114 @@ body * {
 .gridbox {
   height: 300px;
   width: 300px;
-  border: 2px solid black;
   border-radius: 50px;
+  margin-top: 3rem;
 }
 
 .gridbox .card {
-  border-radius: 50px;
+  border-radius: 20px;
+  margin-left: 5px;
+  height: 270px;
 }
 
-.gridbox .card__header {
+.gridbox .card__header--icon {
+  background: red;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gridbox .card__header--first {
   height: 180px;
   background-image: url("Image 33.png");
   background-size: cover;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.gridbox .card__header--second {
+  height: 180px;
+  background-image: url("Image 34.png");
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.gridbox .card__header--third {
+  height: 180px;
+  background-image: url("Image 35.png");
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.gridbox .card__header--fourth {
+  height: 180px;
+  background-image: url("Image 36.png");
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.gridbox .card__header--fifth {
+  height: 180px;
+  background-image: url("Image 37.png");
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.gridbox .card__header--sixth {
+  height: 180px;
+  background-image: url("Image 38.png");
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .container__title {
@@ -306,11 +398,9 @@ body * {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  border: 2px solid blue;
 }
 
 .container__title .heart {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,6 +417,5 @@ body * {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  border: 2px solid blue;
 }
 /*# sourceMappingURL=page.css.map */

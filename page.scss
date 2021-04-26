@@ -6,7 +6,7 @@ $orange: #EF4C00;
 $maroon: #B30733;
 
 html {
-    height: 2036px;
+    height: 1500px;
     width: 100%;
 }
 
@@ -251,12 +251,10 @@ body {
 
 .boreder {
     margin: 0 5rem 0 5rem;
-    border: 2px solid red;
 
     &3 {
         display: grid;
         grid-template-columns: auto auto auto;
-        border: 2px solid blue;
         justify-content: space-around;
     }
 }
@@ -264,30 +262,94 @@ body {
 .gridbox {
     height: 300px;
     width: 300px;
-    border: 2px solid black;
     border-radius: 50px;
+    margin-top: 3rem;
 
     .card {
-        border-radius: 50px;
+        border-radius: 20px;
+        margin-left: 5px;
+        height: 270px;
 
-        &__header {
-            height: 180px;
-            background-image: url("Image 33.png");
-            background-size: cover;
-            border-top-right-radius: 50px;
-            border-top-left-radius: 50px;
+        &__header{
+
+            &--icon {
+                background: red;
+                border-radius: 50px;
+                height: 30px;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            &--first {
+                height: 180px;
+                background-image: url("Image 33.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
+                
+            &--second {
+                height: 180px;
+                background-image: url("Image 34.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
+            
+            &--third {
+                height: 180px;
+                background-image: url("Image 35.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
+            
+            &--fourth {
+                height: 180px;
+                background-image: url("Image 36.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            &--fifth {
+                height: 180px;
+                background-image: url("Image 37.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            &--sixth {
+                height: 180px;
+                background-image: url("Image 38.png");
+                background-size: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                display: flex;
+                align-items: flex-end;
+            }
         }
     }
-
 }
 
 .container__title {
     display: grid;
     grid-template-columns: auto auto;
-    border: 2px solid blue;
 
     .heart {
-        border: 2px solid red;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -297,5 +359,4 @@ body {
 .details {
     display: grid;
     grid-template-columns: auto auto;
-    border: 2px solid blue;
 }

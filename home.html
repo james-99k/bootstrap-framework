@@ -11,72 +11,65 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Document</title>
 </head>
 
 <body>
-    <div class="layout">
-        <div class="container ">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <h3 class="navbar--brand">RAKUTEN FRESH</h3>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 content-center">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Find</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">How it Works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Plans</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
+    <div class="background">
+        <div class="container-float">
+            <!-- <div class="container-float__head">
+                <div class="container-float__head--left">
+                    <div class="nav__title">
+                        RAKUTEN FRESH
                     </div>
-                    <div class="container--profile">
-                        <img src="Image 39@2x.png" alt="" width="30" height="24" class="profile--image">
+                    <div class="nav__links">
+                        <a class="nav__links--active" aria-current="page" href="#">Find</a>
+                        <a class="nav__links--inactive" href="#">About Us</a>
+                        <a class="nav__links--inactive" href="#">How it Works</a>
+                        <a class="nav__links--inactive" href="#">Plan</a>
+                        <a class="nav__links--inactive" href="#">Contact Us</a>
                     </div>
-                    <div class="container--item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-basket3" viewBox="0 0 16 16">
-                            <path
-                                d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z" />
-                        </svg>
-                        <p class="container--item-text">(5) items</p>
+                    <div class="nav__profile">
+                        <div class="nav__profile--icon">
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-        <div class="container">
-            <div class="text">
-                <figure class="text-center">
-                    <blockquote class="blockquote">
-                        <p>"People who loves to eat are always the Best People"</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        <cite title="Source Title">JULIA CHILD</cite>
-                    </figcaption>
-                </figure>
-                <img src="10882.png" alt="">
+                <div class="container-float__head--right">
+                    <div class="nav__item">
+                        <i class="fas fa-shopping-basket"></i>
+                        (5) items
+                    </div>
+                </div>
+            </div> -->
+            <div class="row head">
+                <div class="col-sm head__title">
+                    RAKUTEN FRESH
+                </div>
+                <div class="col-sm head__link head__link--active">
+                    Find
+                </div>
+                <div class="col-sm head__link">
+                    About Us
+                </div>
+                <div class="col-sm head__link">
+                    How it Works
+                </div>
+                <div class="col-sm head__link">
+                    Plan
+                </div>
+                <div class="col-sm head__link">
+                    Contact Us
+                </div>
+                <div class="col-sm head__profile">
+                    circle
+                </div>
+                <div class="col-sm head__cart">
+                    <i class="fas fa-shopping-basket"></i>
+                    (5) items
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                  aria-describedby="search-addon" />
-                <span class="input-group-text border-0" id="search-addon">
-                  <i class="fas fa-search"></i>
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
-              </div>
         </div>
     </div>
 </body>

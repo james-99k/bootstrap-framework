@@ -5,181 +5,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Bootstrap5</title>
+
+    <title>RAKUTEN FRESH</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="container container__nav">
-            <div class="row container__nav--row">
-                <div class="col-md-3 col-sm-12 container__nav--logo">
-                    RAKUTEN FRESH
+
+    <!-- Logo Nav Profile -->
+    <section>
+        <div class="container nav-container">
+            <div class="row nav-bar">
+                <div class="col-xl col-lg-12 col-md-12 col-sm-12 nav-bar__logo">
+                    <span>RAKUTEN FRESH</span>
                 </div>
-                <div class="col-md-7 col-sm-12 container__nav--list">
-                    <ul class="nav container__link">
-                        <li class="nav-item">
-                            <a class="nav-link active container__link container__link--active" aria-current="page"
-                                href="#">Find</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link container__link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link container__link" href="#">How it Works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link container__link" href="#">Plan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link container__link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                <div class="col-xl col-lg col-md col-sm-12 nav-bar__tab">
+                    <nav class="nav link">
+                        <a class="nav-link active link__text" aria-current="page" href="#">Find</a>
+                        <a class="nav-link link__text" href="#">About Us</a>
+                        <a class="nav-link link__text" href="#">How it Works</a>
+                        <a class="nav-link link__text" href="#">Plan</a>
+                        <a class="nav-link link__text" href="#">Contact Us</a>
+                    </nav>
                 </div>
-                <div class="col-md-2 col-sm-12 container__profile">
-                    <img src="Image 39.png" alt="" class="container__profile--image">
-                    <div class="conatiner__profile--link" style="border-left: 1px solid gray; padding-left: 10px;">
-                        <a class="nav-link container__profile--button" href="#">
-                            <i class="fas fa-shopping-basket"></i>
-                            (5) items
-                        </a>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm nav-bar__profile">
+                    <div class="circle">
+                        <img src="Images/Image 39.png" alt="" class="circle__image">
                     </div>
                 </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm nav-bar__cart">
+                    <button type="button" class="btn">
+                        <i class="fas fa-shopping-basket"></i>
+                        (5) items
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <figure class="text-center">
-                <blockquote class="blockquote">
-                    <p>"People who loves to eat are always the Best People"</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                    <cite title="Source Title" class="blockquote__source">JULIA CHILD</cite>
-                </figcaption>
-            </figure>
         </div>
-        <div class="container container__poster">
-            <div class="row container__poster--motto">
-                <div class="col-md-4">Find Healthy And Favourite Foods Near You</div>
-                <div class="col-md-8"></div>
+    </section>
+
+    <!-- Quote -->
+    <section>
+        <div class="container quote-container">
+            <div class="row">
+                <div class="col quote">
+                    "People who loves to eat are always Best People
+                </div>
+
             </div>
-            <div class="row container__poster--link">
-                <div class="col-md-8">
-                    <div class="row container__poster--buttons">
-                        <div class="col-md-3 container__poster--mobile">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="Apple.svg.png" alt="" class="container__poster--mobile-icon" height="24"
-                                        width="24">
-                                </div>
-                                <div class="col-md-9">
-                                    <p class="container__poster--mobile-head">
-                                        Download on The
-                                    </p>
-                                    <p class="container__poster--mobile-body">
-                                        App Store
-                                    </p>
-                                </div>
+            <div class="row">
+                <div class="col close">
+                    "
+                </div>
+            </div>
+            <div class="row">
+                <div class="col quotee">
+                    JULIA CHILD
+                </div>
+            </div>
+    </section>
+
+    <!-- Banner -->
+    <section>
+        <div class="container banner-container">
+            <div class="row text">
+                <div class="col-lg-4">
+                    <p>Find Healthy And Favourite Foods Near You</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-2">
+                    <div class="button">
+                        <div class="row">
+                            <div class="col-1 logo">
+                                <img src="Images/Apple.svg.png" alt="" class="logo__image">
                             </div>
-                        </div>
-                        <div class="col-md-3 container__poster--mobile">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="android.png" alt="" class="container__poster--mobile-icon" height="24"
-                                        width="24">
-                                </div>
-                                <div class="col-md-9">
-                                    <p class="container__poster--mobile-head">
+                            <div class="col detail">
+                                <div class="row">
+                                    <div class="col">
                                         Download on The
-                                    </p>
-                                    <p class="container__poster--mobile-body">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col store">
                                         App Store
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-lg-2">
+                    <div class="button">
+                        <div class="row">
+                            <div class="col-1 logo">
+                                <img src="Images/android.png" alt="" class="logo__image">
+                            </div>
+                            <div class="col detail">
+                                <div class="row">
+                                    <div class="col">
+                                        Download on The
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col store">
+                                        App Store
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container container__menu">
+    </section>
+
+    <!-- Meal bar -->
+    <section>
+        <div class="container meal-container">
             <div class="row">
-                <div class="col-md-3 container__menu--text">OUR MEALS</div>
-                <div class="col-md-8">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search by Name" aria-label="Search">
-                        <i class="fas fa-search container__menu--icon"></i>
-                    </form>
+                <div class="col text">
+                    OUR MEALS
                 </div>
-                <div class="col-md-1 container__menu--list">
-                    <a class="nav-link">
-                        <i class="fas fa-bars container__menu--list-bar"></i>
-                    </a>
+                <div class="col-3 search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search by Name">
+                        <button class="btn">
+                            <i class="fas fa-search container__menu--icon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-1 list">
+                    <i class="fas fa-bars icon"></i>
                 </div>
             </div>
         </div>
-        <div class="container container__type">
+    </section>
+
+    <!-- Categories -->
+    <section>
+        <div class="container catergory-container">
             <div class="row">
                 <div class="col-md">
-                    <div class="container__type--all">ALL (170)</div>
+                    <div class="button button__all">
+                        ALL (170)
+                    </div>
                 </div>
                 <div class="col-md">
-                    <div class="container__type--button">
+                    <div class="button">
                         <i class="fas fa-egg"></i>
                          Break Fast (23)
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="container__type--button">
+                    <div class="button">
                         <i class="fas fa-utensils"></i>
                          Lunch (41)
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="container__type--button">
+                    <div class="button">
                         <i class="fas fa-glass-whiskey"></i>
                          Drinks (53)
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="container__type--button">
+                    <div class="button">
                         <i class="fas fa-ice-cream"></i>
                          Dessert (33)
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="container__type--button">
+                    <div class="button">
                         <i class="fas fa-hamburger"></i>
                          Fastfood (20)
                     </div>
                 </div>
             </div>
         </div>
-        <div class="boreder">
-            <div class="boreder3">
+    </section>
+
+    <!-- // First card row -->
+    <section>
+        <div class="container card-container">
+            <div class="row">
                 <div class="gridbox">
                     <div class="card">
                         <div class="card__header--first">
                             <i class="fas fa-utensils card__header--icon"></i> 
                         </div>
-                        <div class="container__title card__title">
+                        <div class="card__title">
                             <div class="title">
                                 Pakistani Chicken Platter
                             </div>
                             <div class="heart">
-                                <div class="heart-icon"></div>
+                                <i class="fas fa-heart"></i>
                             </div>
                         </div>
                         <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star__off"></div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>    
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                             32 Reviews
                         </div>
                         <div class="details card__details">
@@ -204,15 +237,15 @@
                                 Rissoto
                             </div>
                             <div class="heart">
-                                <div class="heart-icon__off"></div>
+                                <i class="fas fa-heart"></i>
                             </div>
                         </div>
                         <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star__off"></div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>    
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                             20 Reviews
                         </div>
                         <div class="details card__details">
@@ -237,14 +270,15 @@
                                 Maslenitca
                             </div>
                             <div class="heart">
-                                <div class="heart-icon"></div>
+                                <i class="fas fa-heart"></i>
                             </div>
                         </div>
                         <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                             <div class="star__off"></div>
                             45 Reviews
                         </div>
@@ -262,69 +296,46 @@
                 </div>
             </div>
         </div>
-        <div class="container container__popular">
-            Popular  
+    </section>
+
+    <!-- Popular  -->
+    <section>
+        <div class="container poplupar-container">
+            <h1><span>POPULAR </span></h1>
+            <div class="line"></div>
         </div>
-        <div class="boreder">
-            <div class="boreder3">
+        
+    </section>
+
+    <!-- // Second card row -->
+    <section>
+        <div class="container card-container">
+            <div class="row">
                 <div class="gridbox">
                     <div class="card">
                         <div class="card__header--fourth">
-                            <i class="fas fa-hamburger card__header--icon"></i>
+                            <i class="fas fa-utensils card__header--icon"></i> 
                         </div>
-                        <div class="container__title card__title">
+                        <div class="card__title">
                             <div class="title">
-                                Moussaka
+                                Pakistani Chicken Platter
                             </div>
                             <div class="heart">
-                                <div class="heart-icon"></div>
+                                <i class="fas fa-heart"></i>
                             </div>
                         </div>
                         <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star__off"></div>
-                            55 Reviews
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>    
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            32 Reviews
                         </div>
                         <div class="details card__details">
                             <div class="links">
-                                <a href="#" class="card-link container__card--link">Italian</a>
-                                <a href="#" class="card-link container__card--link">Greek</a>    
-                            </div>
-                            <div class="time">
-                                <i class="far fa-clock"></i>
-                                15-25
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gridbox">
-                    <div class="card">
-                        <div class="card__header--fifth">
-                            <i class="fas fa-glass-whiskey card__header--icon"></i>
-                        </div>
-                        <div class="container__title card__title">
-                            <div class="title">
-                                Capachino
-                            </div>
-                            <div class="heart">
-                                <div class="heart-icon"></div>
-                            </div>
-                        </div>
-                        <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star__off"></div>
-                            72 Reviews
-                        </div>
-                        <div class="details card__details ">
-                            <div class="links">
-                                <a href="#" class="card-link container__card--link">American</a>
-                                <a href="#" class="card-link container__card--link">European</a>    
+                                <a href="#" class="card-link container__card--link">Indian</a>
+                                <a href="#" class="card-link container__card--link">Pakistani</a>    
                             </div>
                             <div class="time">
                                 <i class="far fa-clock"></i>
@@ -335,46 +346,75 @@
                 </div>
                 <div class="gridbox">
                     <div class="card">
-                        <div class="card__header--sixth">
-                            <i class="fas fa-utensils card__header--icon"></i>
+                        <div class="card__header--fifth">
+                            <i class="fas fa-utensils card__header--icon"></i> 
                         </div>
                         <div class="container__title card__title">
                             <div class="title">
-                                Arabic Mandi
+                                Rissoto
                             </div>
                             <div class="heart">
-                                <div class="heart-icon__off"></div>
+                                <i class="fas fa-heart"></i>
                             </div>
                         </div>
                         <div class="reviews card__reviews">
-                            <div class="star"></div>
-                            <div class="star"></div>    
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star__off"></div>
-                            34 Reviews
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>    
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            20 Reviews
                         </div>
                         <div class="details card__details">
                             <div class="links">
-                                <a href="#" class="card-link container__card--link">Aravic</a>
-                                <a href="#" class="card-link container__card--link">Turkish</a>    
+                                <a href="#" class="card-link container__card--link">Italian</a>
+                                <a href="#" class="card-link container__card--link">European</a>    
                             </div>
                             <div class="time">
                                 <i class="far fa-clock"></i>
-                                35-45
+                                10-20
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridbox">
+                    <div class="card">
+                        <div class="card__header--sixth">
+                            <i class="fas fa-ice-cream card__header--icon"></i>
+                        </div>
+                        <div class="container__title card__title">
+                            <div class="title">
+                                Maslenitca
+                            </div>
+                            <div class="heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="reviews card__reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <div class="star__off"></div>
+                            45 Reviews
+                        </div>
+                        <div class="details card__details">
+                            <div class="links">
+                                <a href="#" class="card-link container__card--link">Indian</a>
+                                <a href="#" class="card-link container__card--link">Pakistani</a>    
+                            </div>
+                            <div class="time">
+                                <i class="far fa-clock"></i>
+                                25-35
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
